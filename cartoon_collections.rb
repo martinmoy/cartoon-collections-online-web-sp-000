@@ -16,6 +16,6 @@ def find_the_cheese(array)
   i = 0
   while i < cheese_types.length
     i += 1
-  array.find { |cheese| cheese == cheese_types[i]}
+  return array.find { |cheese| cheese == cheese_types[i]}
   end
 end
